@@ -1,22 +1,18 @@
-h1 {
-  color: red
+@mixin media-query($value, $operator: 'max-width', $query: 'screen') {
+  @media #{$query} and (#{$operator}: #{$value}) {
+    @content;
+  }
 }
-h2 {
-  color: red
-}
-h3 {
-  color: red
-}
-h4 {
-  color: red
-}
-h5 {
-  color: red
-}
-h6 {
-  color: red
-}
+
 .container {
-  background: yellow;
-  border: 1px solid red;
+  background-color: lightblue;
+
+  @include media-query(1200px) {
+    background: red;
+  }
+
+  h1 {
+    color: red;
+
+  }
 }
