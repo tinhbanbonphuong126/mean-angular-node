@@ -1,5 +1,5 @@
 <p [ngStyle]="{backgroundColor: getColor()}" [ngClass]="{ online: serverStatus === 'online' }">
-    {{'Server California '}} {{ server }} with ID {{serverId}} is {{serverStatus}}
+    {{ i }}. {{'Server California '}} {{ server }} with ID {{serverId}} is {{serverStatus}}
 </p>
 <button (click)="showServer($event, server)">Click me!!!</button>
 

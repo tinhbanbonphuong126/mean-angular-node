@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc030ff8-6309-4777-a6d7-92b47c46dba5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meanStack1/src/app/pipe/app.sqrt.ts" afterDir="false" />
+    <list default="true" id="dc030ff8-6309-4777-a6d7-92b47c46dba5" name="Default" comment="@Connect Parent &lt;=&gt; Children Emitter.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/gulp/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/gulp/scss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meanStack1/src/app/server/server.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/server/server.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meanStack1/src/app/server/server.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/server/server.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meanStack1/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meanStack1/src/app/station/station.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/meanStack1/src/app/station/station.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,38 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="station.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meanStack1/src/app/station/station.component.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="station.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meanStack1/src/app/station/station.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -100,10 +63,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/meanStack1/src/app/server/server.component.html" />
-        <option value="$PROJECT_DIR$/meanStack1/src/app/station/station.component.html" />
         <option value="$PROJECT_DIR$/meanStack1/src/app/station/station.component.ts" />
+        <option value="$PROJECT_DIR$/meanStack1/src/app/station/station.component.html" />
+        <option value="$PROJECT_DIR$/meanStack1/src/app/server/server.component.html" />
         <option value="$PROJECT_DIR$/meanStack1/src/app/server/server.component.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,7 +94,9 @@
     <option name="width" value="1616" />
     <option name="height" value="886" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,58 +108,6 @@
             <path>
               <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server.component.ts" type="822dc5d7:ComponentFileGroup" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="station" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mean-angular-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mean-angular-node" type="462c0819:PsiDirectoryNode" />
-              <item name="meanStack1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="station" type="462c0819:PsiDirectoryNode" />
-              <item name="station.component.ts" type="822dc5d7:ComponentFileGroup" />
             </path>
           </expand>
           <select />
@@ -241,15 +155,24 @@
       <workItem from="1530241435463" duration="314000" />
       <workItem from="1530322727922" duration="857000" />
       <workItem from="1530412319829" duration="1289000" />
-      <workItem from="1530479982286" duration="7331000" />
+      <workItem from="1530479982286" duration="8458000" />
     </task>
+    <task id="LOCAL-00001" summary="@Connect Parent &lt;=&gt; Children Emitter.">
+      <created>1530563477639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530563477640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10646000" />
+    <option name="totallyTimeSpent" value="11773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" weight="0.32969153" />
@@ -260,11 +183,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Graph Database" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Code comment" order="7" />
       <window_info anchor="right" id="Api Debugger" order="3" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Compare Directories" order="2" />
       <window_info anchor="bottom" id="Graph Database Console" order="7" />
@@ -287,6 +210,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="@Connect Parent &lt;=&gt; Children Emitter." />
+    <option name="LAST_COMMIT_MESSAGE" value="@Connect Parent &lt;=&gt; Children Emitter." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.html">
@@ -318,31 +247,38 @@
     <entry file="file://$PROJECT_DIR$/meanStack1/src/app/servers/servers.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/meanStack1/src/app/station/station.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="169">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.html">
+    <entry file="file://$PROJECT_DIR$/meanStack1/src/app/station/station.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="334">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meanStack1/src/app/station/station.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="49">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meanStack1/src/app/server/server.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>

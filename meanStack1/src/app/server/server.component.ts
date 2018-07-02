@@ -8,12 +8,14 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 export class ServerComponent implements OnInit {
 
     @Input() server: string;
+    @Input() i: number;
+
     @Output()
         serverClick: EventEmitter<string> = new EventEmitter<string>();
 
     serverId: number = 100;
-    private _serverStatus: string = 'offline'
-    name: string = ''
+    private _serverStatus: string = 'offline';
+    name: string = '';
     months: string[] = [
         'Tháng 1', 'Tháng 2', 'Tháng 3',
         'Tháng 4', 'Tháng 5', 'Tháng 6',
@@ -38,7 +40,7 @@ export class ServerComponent implements OnInit {
     }
 
     showServer(event, server): void {
-        alert(server)
+        alert(server);
         this.serverClick.emit(server)
     }
 }
