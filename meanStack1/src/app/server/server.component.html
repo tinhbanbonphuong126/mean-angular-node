@@ -1,1 +1,13 @@
-<h2>Here is Server component</h2>
+<p [ngStyle]="{backgroundColor: getColor()}" [ngClass]="{ online: serverStatus === 'online' }">
+    {{'Server California '}} {{ server }} with ID {{serverId}} is {{serverStatus}}
+</p>
+<button (click)="showServer($event, server)">Click me!!!</button>
+
+
+<!--
+<div> Months :
+    <select>
+        <option *ngFor="let i of months">{{i}}</option>
+    </select>
+</div>
+-->

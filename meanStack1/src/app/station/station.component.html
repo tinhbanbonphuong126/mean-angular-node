@@ -1,0 +1,38 @@
+<!--Weak Binding-->
+<input type="text" class="form-control" (input)="onUpdateServerName($event)">
+<br/>
+<!--Strong Binding-->
+<input type="text" class="form-control" [(ngModel)]="serverName">
+
+<p>{{serverName}}</p>
+<br style="margin-bottom: 20px;"/>
+
+<button
+        class="btn btn-primary"
+        [disabled]="!allowNewServer"
+        (click)="onCreateServer()"
+>
+    Add Server
+</button>
+
+<br style="margin-bottom: 20px;"/>
+
+<h1 *ngIf="serverCreate; else noServer">
+    {{ serverCreationStatus }}
+</h1>
+<ng-template #noServer>
+    <h1>
+        No server Created
+    </h1>
+</ng-template>
+
+<h2 appAppChangeText>Directive Change</h2>
+<h2 class="pipe">{{ 'upper case'| uppercase }}</h2>
+<b>Căn bậc hai của 25 là : {{25 | sqrt}}</b>
+
+
+<hr/>
+
+<h2 [innerText]="allowNewServer"></h2>
+
+<app-server *ngFor="let server of servers; let i = index" [server]="server" (serverClick)="showAuthorFromParent($event)"></app-server>

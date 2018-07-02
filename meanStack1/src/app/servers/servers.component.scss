@@ -3,6 +3,25 @@
     @content;
   }
 }
+// source http://www.alistapart.com/articles/getting-started-with-sass/
+// http://nicolasgallagher.com/micro-clearfix-hack/
+@mixin clearfix {
+  // For modern browsers
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  // For IE 6/7 (trigger hasLayout)
+  & {
+    *zoom: 1;
+  }
+}
 
 .container {
   background-color: lightblue;
@@ -12,7 +31,44 @@
   }
 
   h1 {
-    color: red;
+    color: blue;
 
+    transform: scale(0.5);
+  }
+
+  .bar {
+    @include clearfix;
+  }
+  .foo {
+    font-size: responsive;
+    max-font-size: 25px;
+    upper-font-range: 1280px;
+
+    clear: fix;
+    transition: all 250ms ease-in-cubic;
+
+  }
+
+  @include clearfix;
+}
+
+.second {
+  opacity: 1;
+  lost-center: 1000px;
+
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+
+
+  @lost gutter 5px;
+  .lostGrid {
+    opacity: 1;
+    height: 100%;
+
+    .gridCell {
+      lost-column: 1/3;
+      background: lightgreen;
+    }
   }
 }
