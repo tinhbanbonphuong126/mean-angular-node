@@ -1,3 +1,7 @@
-<p>
-  recipe-item works!
-</p>
+<tr>
+    <td scope="row">{{ recipe.name }}</td>
+    <td>{{ recipe.description }}</td>
+    <td>
+        <img width="50" [src]="recipe.imagePath" alt="Image Recipe">
+    </td>
+</tr>

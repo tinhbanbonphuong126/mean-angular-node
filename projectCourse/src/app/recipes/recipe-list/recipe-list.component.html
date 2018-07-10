@@ -1,3 +1,37 @@
-<p>
-  recipe-list works!
-</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-success">New Recipe</button>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-sm-6">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th style="width: 200px;">Recipe Name</th>
+                    <th style="width: 200px;">Description</th>
+                    <th style="width: 200px;">Image URL .</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let recipe of recipes" (click)="onSelected(recipe, $event.currentTarget)">
+                    <td scope="row">{{ recipe.name }}</td>
+                    <td>{{ recipe.description }}</td>
+                    <td>
+                        <img width="50" [src]="recipe.imagePath" alt="Image Recipe">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<br>
+<hr>
+
+<div class="smart-table">
+    <ng2-smart-table [settings]="settings" [source]="data" (deleteConfirm)="onDeleteConfirm($event)"></ng2-smart-table>
+</div>
