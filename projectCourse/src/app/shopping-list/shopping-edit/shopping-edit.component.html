@@ -2,16 +2,27 @@
     <div class="col-sm-12">
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" id="name" aria-describedby="name" placeholder="Name">
+            <input type="text"
+                   class="form-control"
+                   name="name" id="name"
+                   aria-describedby="name"
+                   #nameInput
+                   placeholder="Name">
         </div>
         
         <div class="form-group">
             <label for="amount">Amount</label>
-            <input type="text" class="form-control" name="amount" id="amount" aria-describedby="amount" placeholder="Amount">
+            <input type="text"
+                   class="form-control"
+                   name="amount" id="amount"
+                   aria-describedby="amount"
+                   #amountInput
+                   placeholder="Amount">
         </div>
         
         <div>
             <button type="button" name=""
+                    (click)="onAddItem()"
                     class="btn btn-primary btn-lg btn-block">Add
             </button>
             <button type="button" name=""
